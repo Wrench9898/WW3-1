@@ -1,0 +1,24 @@
+"type": GenericCrafter,
+"size": 2,
+name: Usine de missile nucléaire 
+description: Usine nucléaire d'où le nom est de fabriquer une arme destructeur.
+"itemCapacity": 3000
+"consumes": {
+"power": 10
+"items": {
+"items": [
+	uranium/350
+	scrap/1000
+	blindage/500
+	silicon/750
+	obus_150mm/20
+	
+]}} 
+"outputItem": missilenucleaire/1
+"requirements": [
+lead/5000
+scrap/4500
+silicon/1250
+]
+category: crafting
+research: usine_missile_nucleaire

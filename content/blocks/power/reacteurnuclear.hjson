@@ -1,0 +1,33 @@
+type: NuclearReactor
+health: 4800
+size: 7
+name: Réacteur nucléaire
+description: Réacteur nucléaire , créer énormément d'énergie mais à besoin de liquide de refroidissement pour ne pas exploser .
+itemCapacity: 5
+itemDuration: 120
+heating: 0.01
+flashThreshold: 0.46
+coolantPower: 0.5
+explodeEffect: nuclearcloud
+explosionRadius: 150
+explosionDamage: 1350
+destroySound: explosionnucleaire,
+powerProduction: 70
+consumes: {
+liquid: {
+    liquid: water,
+	amount : 0.3,
+  }
+items: {
+items: [
+uranium/1
+
+]}} 
+requirements: [
+copper/2500
+lead/1500
+beton/750
+blindage/200
+]
+category: power
+research: reacteurnuclear

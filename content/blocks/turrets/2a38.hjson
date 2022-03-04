@@ -1,0 +1,42 @@
+{
+	"type": "itemTurret",
+    "name": "2A38",
+    "description": "Anti-aérien trés efficace contre les semi-blindés.",
+	"hasItems": true,
+    "hasLiquids": false,
+    "targetAir": true,
+    "targetGround": false,
+    "health": 550,
+	"power": 3,
+    "size": 3,
+    "shootType": "BasicBulletType",
+    "inaccuracy": 2,
+    "reloadTime": 3,
+    "shootCone": 40,
+    "rotateSpeed": 40,
+    "shots": 2,
+	"ammoEjectBack": 5,
+    "range": 225,
+    "ammoTypes": {
+        "moyen_calibre": {
+		"type": "BasicBulletType"
+		    "lifetime": 25
+            "speed": 17,
+            "damage": 13,
+            "bulletWidth": 1,
+            "bulletHeight": 1,
+            "shootEffect": "shootSmall",
+            "smokeEffect": "shootBigSmoke",
+            "ammoMultiplier": 10,
+	    "bulletSprite": "balle",
+        }
+    },
+    "requirements": [
+        { "item": "scrap", "amount": 650 },
+		{ "item": "lead", "amount": 450 },
+		{ "item": "silicon", "amount": 1000 },
+		{ "item": "copper", "amount": 1250 },
+    ],
+    "category": "turret"
+    "shootSound": "coaxiale"
+}

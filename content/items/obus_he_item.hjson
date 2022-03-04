@@ -1,0 +1,8 @@
+color: DEAE66
+research: {
+  parent: obus_he_item
+  requirements: [
+    coal/50
+    graphite/50
+  ]
+}

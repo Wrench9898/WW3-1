@@ -1,0 +1,7 @@
+color: DEAE66
+research: {
+  parent: citoyen
+  requirements: [
+    nourriture/5
+  ]
+}

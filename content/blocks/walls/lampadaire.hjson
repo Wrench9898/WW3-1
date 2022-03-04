@@ -1,0 +1,19 @@
+type: LightBlock
+health: 370
+size: 1
+name: Lampadaire
+description: Emet de la lumière dans une grande Zone.
+lightRadius: 1000
+emitLight: true
+radius: 500
+brightness: 1
+lightColor: ffffffff
+consumes: {
+  power: 0.2
+}
+category: defense
+research: lampadaire
+requirements: [
+  silicon/4
+  scrap/4
+]

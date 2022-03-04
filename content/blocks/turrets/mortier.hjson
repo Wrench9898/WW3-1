@@ -1,0 +1,61 @@
+{
+	"type": "itemTurret",
+    "name": "Mortier",
+    "description": "Très efficace contre les infantries.",
+	"hasItems": true,
+    "hasLiquids": false,
+    "targetAir": false,
+    "targetGround": true,
+    "health": 350,
+    "size": 3,
+	"hasPower": true,
+	"power": 4,
+    "shootType": "burstTurret",
+    "inaccuracy": 12,
+    "reloadTime": 120,
+	"shootShake": 1
+	"ammoEjectBack": 5,
+    "shootCone": 4,
+    "rotateSpeed": 5,
+    "shots": 8,
+    "range": 300,
+    "ammoTypes": {
+        "obus_he_item": {
+		"type": "ArtilleryBulletType",
+		    "lifetime": 175,
+            "speed": 2,
+            "damage": 75,
+			"splashDamage": 40,
+			"splashDamageRadius": 32,
+			"hitEffect": blastExplosion
+            "bulletWidth": 25,
+            "bulletHeight": 60,
+            "ammoMultiplier": 1,
+			"hitsound": explosionzone1,
+	    "bulletSprite": "obus_he",
+        }
+		"obus_intelligente": {
+		"type": "MissileBulletType",
+			"lifetime": 175,
+			"speed": 2,
+			"damage": 50,
+			"splashDamage": 50,
+			"splashDamageRadius": 32,
+			"hitEffect": blastExplosion
+			"bulletWidth": 25,
+			"bulletHeight": 60,
+			"ammoMultiplier": 1,
+			"hitsound": explosion,
+		"bulletSprite": "obus_he",
+		}
+	},
+		
+    "requirements": [
+        { "item": "scrap", "amount": 450 },
+		{ "item": "lead", "amount": 750 },
+		{ "item": "silicon", "amount": 250 },
+		{ "item": "copper", "amount": 950 },
+    ],
+    "category": "turret"
+    "shootSound": "mortier"
+}

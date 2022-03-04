@@ -1,0 +1,29 @@
+type: mech
+speed: 0.8
+name: Sniper
+description: Moin de vie mais plus rapide et plus de dégats , tire à longue distance.
+flying: false
+health: 75
+range: 120
+weapons: [
+  {
+  name: fusilsniper
+  x: 4
+  y: 2
+  reload: 90
+  shotDelay: 5
+  shootSound: sniper
+  itemCapacity: 5
+  alternate: true
+  ejectEffect: casing1
+  bullet: {
+    lifetime: 60
+    speed: 5
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 50
+    width: 9
+    height: 12
+  }}
+]
+research: ground-factory

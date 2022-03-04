@@ -1,0 +1,21 @@
+"type": GenericCrafter,
+"size": 2,
+"craftTime": 5,
+name: Usine de souffre
+description: Utile si vous êtes en manque de souffre.
+"itemCapacity": 50
+"consumes": {
+"power": 1.5
+"items": {
+"items": [
+	coal/30
+	scrap/15
+]}} 
+"outputItem": souffre/3
+"requirements": [
+lead/100
+graphite/20
+silicon/60
+]
+category: crafting
+research: souffre

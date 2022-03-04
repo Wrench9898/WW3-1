@@ -1,0 +1,20 @@
+"type": GenericCrafter,
+"size": 2,
+name: Usine Obus HE
+description: Obus utile pour les mortiers ou les soldats d'attaque .
+"itemCapacity": 250
+"consumes": {
+"power": 2
+"items": {
+"items": [
+	souffre/150
+	scrap/100
+]}} 
+"outputItem": obus_he_item/1
+"requirements": [
+lead/370
+scrap/450
+silicon/745
+]
+category: crafting
+research: obus_he_item

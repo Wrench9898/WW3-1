@@ -1,0 +1,20 @@
+"type": GenericCrafter,
+"size": 2,
+name: Usine de Munition+
+description: Usine où on améliore les balle précédente .
+"itemCapacity": 250
+"consumes": {
+"power": 2
+"items": {
+"items": [
+	petit_calibre/10
+    scrap/20
+]}} 
+"outputItem": moyen_calibre/2
+"requirements": [
+lead/540
+scrap/780
+silicon/950
+]
+category: crafting
+research: moyen_calibre

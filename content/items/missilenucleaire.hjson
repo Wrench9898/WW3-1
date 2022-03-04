@@ -1,0 +1,10 @@
+color: DEAE66
+research: {
+  parent: nourriture
+  requirements: [
+    uranium/350
+	scrap/1000
+	blindage/500
+	silicon/750
+  ]
+}

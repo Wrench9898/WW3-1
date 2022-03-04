@@ -1,0 +1,23 @@
+"type": GenericCrafter,
+name: Usine de béton.
+description: Utile pour fabrication de mur ou divers choses.
+"size": 2,
+"itemCapacity": 25
+"consumes": {
+liquid: {
+    liquid: water,
+	amount : 0.2,
+  }
+"power": 2
+"items": {
+"items": [
+	sand/20	
+]}} 
+"outputItem": beton/2
+"requirements": [
+lead/650
+scrap/750
+silicon/850
+]
+category: crafting
+research: beton

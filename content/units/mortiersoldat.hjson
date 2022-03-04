@@ -1,0 +1,38 @@
+type: mech
+speed: 0.5
+flying: false
+targetAir: false
+targetGround: true
+name: Soldat Mortier
+description: Soldat qui tire par dessus les murs.
+health: 150
+range: 110
+weapons: [
+  {
+  name: mortierarme
+  x: 4
+  y: 2
+  reload: 120
+  shotDelay: 5
+  shootSound: mortier
+  shootEffect: smoke
+  itemCapacity: 5
+  alternate: true
+  ejectEffect: casing1
+  bullet: {
+  type: FlakBulletType
+    "type": "ArtilleryBulletType",
+		    "lifetime": 130,
+            "speed": 2,
+            "damage": 70
+			"splashDamage": 55,
+			"splashDamageRadius": 32,
+			"hitEffect": blastExplosion
+            "bulletWidth": 25,
+            "bulletHeight": 60,
+            "ammoMultiplier": 1,
+			"hitSound": explosionzone1,
+	    "bulletSprite": "obus_he",
+  }}
+]
+research: ground-factory

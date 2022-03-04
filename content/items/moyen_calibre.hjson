@@ -1,0 +1,8 @@
+color: DEAE66
+research: {
+  parent: moyen_calibre
+  requirements: [
+    petit_calibre/10
+    scrap/20
+  ]
+}

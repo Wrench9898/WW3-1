@@ -1,0 +1,8 @@
+name: "WW3"
+displayName: "War Mod ."
+author: Wrench98
+description: "Mod where you have items , guns and units of the war 2022."
+version: "1.0"
+minGameVersion: "126.3"
+dependencies: [ ]
+hidden: false

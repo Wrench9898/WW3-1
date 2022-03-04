@@ -1,0 +1,9 @@
+color: DEAE66
+research: {
+  parent: blindage
+  requirements: [
+    scrap/50
+	lead/10
+	graphite/ 25
+  ]
+}

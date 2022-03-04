@@ -1,0 +1,52 @@
+{
+	"type": "itemTurret",
+    "name": "Silo à missile",
+    "description": "Silo à missile très efficace pour tout détruire.",
+	"hasItems": true,
+    "hasLiquids": false,
+    "targetAir": false,
+    "targetGround": true,
+    "health": 1250,
+    "size": 7,
+    "shootType": "MissileBulletType",
+    "inaccuracy": 2,
+    "reloadTime": 2500,
+	"shootShake": 1
+	"ammoEjectBack": 5,
+	"shootEffect": "blastExplosion",
+    "shootCone": 4,
+    "rotateSpeed": 2,
+    "shots": 1,
+    "range": 800,
+	consumes: {
+		power: 15
+		}
+    "ammoTypes": {
+        "missilenucleaire": {
+		"type": "MissileBulletType",
+		    "lifetime": 450,
+            "speed": 1.3,
+            "damage": 7500
+			"splashDamage": 750,
+			"splashDamageRadius": 450,
+			"hitEffect": nuclearcloud,
+			"shootEffect": shootBigSmoke2,
+            "bulletWidth": 50,
+            "bulletHeight": 100,
+            "ammoMultiplier": 1,
+			"width": 50
+            "height": 100
+			"hitSound": explosionucleaire,
+	    "bulletSprite": "obus_he",
+        }
+	},
+		
+    "requirements": [
+        { "item": "scrap", "amount": 5680 },
+		{ "item": "lead", "amount": 6780 },
+		{ "item": "silicon", "amount": 4360 },
+		{ "item": "copper", "amount": 7000 },
+    ],
+    "category": "turret"
+    "shootSound": "cannon150mm"
+}

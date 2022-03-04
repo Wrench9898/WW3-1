@@ -1,0 +1,11 @@
+type: Wall
+health: 390
+name: Mur béton armée
+description: Petit mur de deffense pour retenir les ennemies ou protéger une zone senssible .
+size: 1
+requirements: [
+  beton/50
+  scrap/50
+]
+category: defense
+research: betonarmewall

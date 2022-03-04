@@ -1,0 +1,25 @@
+type: BurnerGenerator
+health: 2500
+name: Générateur électrogéne  
+description: Utile pour avoir de l'énergie sans problème et ni de risque d'une explosion désastreuse.
+size: 2
+itemCapacity: 5
+itemDuration: 10
+explosionRadius: 25
+explosionDamage: 150
+powerProduction: 4
+consumes: {
+liquid: {
+    liquid: oil,
+	amount : 0.3,
+  }
+} 
+requirements: [
+copper/550
+lead/550
+silicon/150
+graphite/50
+
+]
+category: power
+research: generateur

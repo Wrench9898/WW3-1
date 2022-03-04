@@ -1,0 +1,21 @@
+type: ForceProjector
+health: 1250
+size: 2
+name: Mur d'enceinte 
+description: Mur blindée résistant au blindée et aux grosses explosions.
+consumes: {
+power: 1
+items: {
+items: [
+blindage/1
+]
+}} 
+phaseRadiusBoost: 12.5
+radius: 12
+requirements: [
+scrap/50
+beton/50
+blindage/100
+]
+category: defense
+research: murdenceinte

@@ -1,0 +1,39 @@
+{
+	"type": "itemTurret",
+    "name": "Tourelle coaxiale",
+    "description": "Tourelle contre l'infantrie.",
+	"hasItems": true,
+    "hasLiquids": false,
+    "targetAir": true,
+    "targetGround": true,
+    "health": 75,
+    "size": 1,
+	"brightness" : 1
+	"radius" : 115
+    "shootType": "BasicBulletType",
+    "inaccuracy": 10,
+    "reloadTime": 10,
+    "shootCone": 40,
+    "rotateSpeed": 20,
+    "shots": 1,
+    "range": 115,
+    "ammoTypes": {
+        "petit_calibre": {
+		"type": "BasicBulletType"
+		    "lifetime": 14
+            "speed": 17,
+            "damage": 10,
+            "bulletWidth": 25,
+            "bulletHeight": 40,
+            "shootEffect": "shootSmall",
+            "smokeEffect": "shootSmallSmoke",
+            "ammoMultiplier": 4,
+	    "bulletSprite": "balle",
+        }
+    },
+    "requirements": [
+        { "item": "scrap", "amount": 100 },
+    ],
+    "category": "turret"
+    "shootSound": "coaxiale"
+}

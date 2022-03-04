@@ -1,0 +1,41 @@
+type: LiquidTurret
+size: 1
+name: Pompier
+description: Utile pour éteindre le feu.
+squareSprite: false
+requiresWater: false
+range: 240
+health: 100
+reloadTime: 3
+shots: 3
+inaccuracy: 0.5
+velocityInaccuracy: 0.5
+shootEffect: {
+  type: ParticleEffect
+  cone: 5
+  particles: 5
+  length: 64
+  lifetime: 50
+  interp: pow5Out
+  sizeFrom: 4
+  sizeTo: 2
+  colorFrom: 596ab8
+  colorTo: 596ab825
+}
+ammoTypes: {
+  water: {
+    type: LiquidBulletType
+    liquid: water
+    damage: 1
+    speed: 12
+    lifetime: 30
+    drag: 0.05
+    orbSize: 3
+  }
+}
+category: turret
+research: pompier
+requirements: [
+  citoyen/1
+  scrap/150
+]

@@ -1,0 +1,21 @@
+type: ThermalGenerator
+health: 4800
+name: Générateur hydrolique
+description: Utile pour avoir de l'énergie prés d'une source d'eau.
+size: 2
+itemCapacity: 5
+itemDuration: 120
+requiresWater: false
+flashThreshold: 0.46
+coolantPower: 0.5
+attribute: water
+generateEffect: smoke
+powerProduction: 3.5
+
+requirements: [
+copper/540
+lead/350
+beton/50
+]
+category: power
+research: hydrolique

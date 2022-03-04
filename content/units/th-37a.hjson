@@ -1,0 +1,32 @@
+type: mech
+health: 850
+name: TH37A
+description: Hélicoptère , utile pour des supports aèriens.
+hitSize: 4
+speed: 1.2
+flying: true
+range: 70
+weapons: [
+{
+  name: th-37arme
+  x: 4
+  y: 2
+  reload: 3
+  shotDelay: 5
+  shootSound: coaxiale
+  itemCapacity: 5
+  alternate: true
+  ejectEffect: casing1
+  bullet: {
+    lifetime: 60
+    speed: 5
+    shootEffect: shootSmall
+    smokeEffect: shootBigSmoke
+    damage: 7
+    width: 9
+    height: 12
+  }
+}
+
+]
+research: th-37a

@@ -1,0 +1,19 @@
+"type": GenericCrafter,
+"size": 2,
+name: Usine de munition
+description: Fabrication de munition lambda.
+"consumes": {
+"power": 1.5
+"items": {
+"items": [
+	souffre/1
+	scrap/2
+]}} 
+"outputItem": petit_calibre/2
+"requirements": [
+lead/250
+graphite/75
+silicon/125
+]
+category: crafting
+research: petit_calibre

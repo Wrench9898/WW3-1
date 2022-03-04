@@ -1,0 +1,41 @@
+{
+	"type": "itemTurret",
+    "name": "Tour de sniper .",
+    "description": "Tour de sniper , efficace pour tirer à longue ditance",
+	"hasItems": true,
+    "hasLiquids": false,
+    "targetAir": false,
+    "targetGround": true,
+    "health": 350,
+    "size": 2,
+	"brightness" : 1
+	"radius" : 250
+    "shootType": "BasicBulletType",
+    "inaccuracy": 1,
+    "reloadTime": 70,
+    "shootCone": 40,
+    "rotateSpeed": 20,
+    "shots": 1,
+    "range": 250,
+    "ammoTypes": {
+        "moyen_calibre": {
+		"type": "BasicBulletType"
+		    "lifetime": 16
+            "speed": 17,
+            "damage": 75,
+            "bulletWidth": 25,
+            "bulletHeight": 40,
+            "shootEffect": "shootBig",
+            "smokeEffect": "shootSmallSmoke",
+            "ammoMultiplier": 4,
+	    "bulletSprite": "balle",
+        }
+    },
+    "requirements": [
+        { "item": "scrap", "amount": 250 },
+		{ "item": "citoyen", "amount": 4 },
+		{ "item": "moyen_calibre", "amount": 20 },
+    ],
+    "category": "turret"
+    "shootSound": "sniper"
+}

@@ -1,0 +1,10 @@
+color: DEAE66
+research: {
+  parent: obus_150mm
+  requirements: [
+    scrap/750
+    souffre/450
+	copper/1250
+	obus_he_item/150
+  ]
+}

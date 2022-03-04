@@ -1,0 +1,46 @@
+type: Reconstructor
+name: Caserne d'amélioration.
+description:Caserne utile pour fabriquer des véhicules blindés.
+size: 5
+consumes: {
+power: 2
+  liquid: {
+    liquid: oil,
+	amount : 0.5,
+  }	 
+  power: 5
+  items: {
+    items: [
+    silicon/1000
+    scrap/750
+	gros_calibre/150
+	obus_he_item/10
+    blindage/200
+	citoyen/10
+    ]
+  }
+}
+constructTime: 2000
+requirements: [
+  lead/1250
+  scrap/2500
+  silicon/750
+  metaglass/70
+  blindage/500
+  citoyen/10
+]
+upgrades: [
+  [
+    soldat1, mrap
+  ],
+  [
+    mortiersoldat, t90
+  ],
+  [
+    soldatrpg, tugunska
+  ],
+
+
+]
+category: units
+research: multiplicative-reconstructor

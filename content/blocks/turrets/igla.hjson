@@ -1,0 +1,48 @@
+{
+	"type": "itemTurret",
+    "name": "Igla",
+    "description": "Anti aérien Sol-Air trés efficace contre les blindés aérien.",
+	"hasItems": true,
+    "hasLiquids": false,
+    "targetAir": true,
+    "targetGround": false,
+    "health": 850,
+    "size": 4,
+    "shootType": "BurstTurret",
+    "inaccuracy": 2,
+    "reloadTime": 300,
+	"shootShake": 1
+	"ammoEjectBack": 5,
+	"shootEffect": "flakExplosionBig",
+    "shootCone": 4,
+    "rotateSpeed": 2,
+    "shots": 4,
+	"burstSpacing": 4
+    "range": 450,
+    "ammoTypes": {
+        "gros_calibre": {
+		"type": "MissileBulletType",
+		    "lifetime": 150,
+            "speed": 4,
+            "damage": 90,
+			"splashDamage": 90,
+			"splashDamageRadius": 60,
+			"hitEffect": shockwave,
+			"shootEffect": shootBigSmoke2,
+            "bulletWidth": 25,
+            "bulletHeight": 60,
+            "ammoMultiplier": 1,
+			"hitsound": explosionzone1,
+	    "bulletSprite": "obus_he",
+        }
+	},
+		
+    "requirements": [
+        { "item": "scrap", "amount": 1125 },
+		{ "item": "lead", "amount": 730 },
+		{ "item": "silicon", "amount": 1825 },
+		{ "item": "copper", "amount": 2375 },
+    ],
+    "category": "turret"
+    "shootSound": "rpg"
+}

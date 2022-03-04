@@ -1,0 +1,55 @@
+type: UnitFactory
+name: Caserne 
+description: Permet de créer des soldats de tout type .
+size: 3
+consumes: {
+  power: 1
+}
+plans: [
+  {
+    unit: soldat1
+    requirements: [
+      petit_calibre/30
+      lead/15
+	  citoyen/1
+    ]
+    time: 300
+  }
+  {
+	unit: sniper
+    requirements: [
+      moyen_calibre/30
+      lead/20
+	  citoyen/1
+    ]
+    time: 300
+  }
+  {
+	  unit: mortiersoldat
+	  requirements: [
+        obus_he_item/10
+        lead/50
+		citoyen/1
+    ]
+    time: 300
+  }
+  {
+		unit: soldatrpg
+	    requirements: [
+		  obus_he_item/10
+		  gros_calibre/10
+		  lead/70
+		  citoyen/1
+    ]
+    time: 300
+   }
+	] 
+requirements: [
+  copper/50
+  lead/120
+  silicon/80
+  petit_calibre/30
+  citoyen/10
+]
+category: units
+research: ground-factory

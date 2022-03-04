@@ -1,0 +1,21 @@
+"type": GenericCrafter,
+"size": 3,
+"itemCapacity": 350
+name: Usine obus intelligente 
+description: Moin de dégats que l'Obus HE, mais téléguidable.
+"consumes": {
+"power": 18
+"items": {
+"items": [
+	souffre/100
+	scrap/100
+	silicon/150
+]}} 
+"outputItem": obus_intelligente/2
+"requirements": [
+lead/2750
+scrap/2125
+silicon/3365
+]
+category: crafting
+research: obus_intelligente

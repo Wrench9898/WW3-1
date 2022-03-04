@@ -1,0 +1,29 @@
+type: mech
+speed: 1.4
+name: MRAP
+description: Véhicule semi-blindée efficace contre l'infantrie.
+hitSize: 26
+flying: false
+health: 1500
+range: 70
+weapons: [
+  {
+  name: mrap_arme
+  x: 4
+  y: 2
+  reload: 10
+  alternate: true
+  shootSound: fusil
+  itemCapacity: 10
+  ejectEffect: casing1
+  bullet: {
+    lifetime: 45
+    speed: 5
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 5
+    width: 9
+    height: 12
+  }}
+]
+research: ground-factory

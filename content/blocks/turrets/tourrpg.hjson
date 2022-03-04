@@ -1,0 +1,49 @@
+{
+	"type": "itemTurret",
+    "name": "Tour RPG",
+    "description": "Tour détruisant des terrestres semi-blindé.",
+	"hasItems": true,
+    "hasLiquids": false,
+    "targetAir": true,
+    "targetGround": true,
+    "health": 350,
+    "size": 2,
+	"brightness" : 1
+	"radius" : 175
+    "shootType": "BurstTurret",
+    "inaccuracy": 1,
+    "reloadTime": 190,
+	"shootShake": 1
+	"ammoEjectBack": 5,
+	"shootEffect": "blastExplosion",
+    "shootCone": 4,
+    "rotateSpeed": 5,
+    "shots": 1,
+    "range": 175,
+    "ammoTypes": {
+        "gros_calibre": {
+		"type": "MissileBulletType",
+		    "lifetime": 40,
+            "speed": 5,
+            "damage": 125,
+			"splashDamage": 75,
+			"splashDamageRadius": 45,
+			"hitEffect": explosion,
+			"shootEffect": shootBigSmoke,
+            "bulletWidth": 25,
+            "bulletHeight": 60,
+            "ammoMultiplier": 1,
+			"hitsound": explosionzone1,
+	    "bulletSprite": "obus_he",
+        }
+	},
+		
+    "requirements": [
+        { "item": "scrap", "amount": 750 },
+		{ "item": "lead", "amount": 450 },
+		{ "item": "copper", "amount": 1200 },
+		{ "item": "citoyen", "amount": 4 },
+    ],
+    "category": "turret"
+    "shootSound": "rpg"
+}

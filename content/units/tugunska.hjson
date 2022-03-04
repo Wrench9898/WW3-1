@@ -1,0 +1,43 @@
+type: mech
+speed: 0.4
+hitSize: 5
+flying: false
+name: Tugunska
+description: Blindée anti-aérien.
+targetAir: true
+targetGround: false
+hitSize: 26
+health: 2800
+rotateSpeed: 3,
+range: 200
+weapons: [
+  {
+  name: tugunska_arme
+  x: 4
+  y: 2
+  reload: 120
+  shotDelay: 5
+  shootSound: rpg
+  shootEffect: smoke
+  shootType: BurstTurret
+  itemCapacity: 5
+  alternate: true
+  shots: 4,
+  ejectEffect: casing1
+  bullet: {
+  type: FlakBulletType
+    "type": "MissileBulletType",
+		    "lifetime": 130,
+            "speed": 2,
+            "damage": 70
+			"splashDamage": 55,
+			"splashDamageRadius": 32,
+			"hitEffect": blastExplosion
+            "bulletWidth": 25,
+            "bulletHeight": 60,
+            "ammoMultiplier": 1,
+			"hitSound": explosionzone1,
+	    "bulletSprite": "obus_he",
+  }}
+]
+research: ground-factory

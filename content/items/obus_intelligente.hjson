@@ -1,0 +1,9 @@
+color: DEAE66
+research: {
+  parent: obus_intelligente
+  requirements: [
+    souffre/100
+	scrap/100
+	silicon/150
+  ]
+}

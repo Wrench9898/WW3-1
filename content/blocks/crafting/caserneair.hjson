@@ -1,0 +1,35 @@
+type: UnitFactory
+name: Caserne aérien
+description: Fabricationde support aérien.
+size: 7
+hasLiquids: true
+liquidCapacity: 5
+consumes: {
+  power: 9
+  liquid: {
+    liquid: oil,
+	amount : 0.5,
+} }
+plans: [
+  {
+  unit: th-37a
+  requirements: [
+    silicon/750
+    moyen_calibre/150
+	scrap/450 
+	citoyen/5
+	]
+  time: 1200
+  }
+
+]
+requirements: [
+  copper/340
+  lead/480
+  moyen_calibre/50
+  petit_calibre/100
+  
+	]
+
+category: units
+research: air-factory

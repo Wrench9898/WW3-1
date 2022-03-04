@@ -1,0 +1,4 @@
+color: DEAE66
+research: {
+  parent: nourriture
+}

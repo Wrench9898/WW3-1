@@ -1,0 +1,38 @@
+type: mech
+speed: 0.6
+name: Soldat RPG
+description: Soldat avec un RPG pour détruire des semi-blindée ou des aérien .
+flying: false
+targetAi": false
+targetGround": true
+health: 150
+range: 90
+weapons: [
+  {
+  name: rpg
+  x: 4
+  y: 2
+  reload: 150
+  shotDelay: 5
+  shootSound: rpg
+  shootEffect: smoke
+  itemCapacity: 5
+  alternate: true
+  ejectEffect: casing1
+  bullet: {
+    "type": "MissileBulletType",
+		    "lifetime": 45,
+            "speed": 5,
+            "damage": 50
+			"splashDamage": 40,
+			"splashDamageRadius": 32,
+			"hitEffect": blastExplosion
+            "bulletWidth": 25,
+            "bulletHeight": 60,
+			"hitSound": explosionzone1,
+            "ammoMultiplier": 1,
+			"hitsound": explosionzone1,
+	    "bulletSprite": "obus_he",
+  }}
+]
+research: ground-factory

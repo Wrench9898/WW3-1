@@ -1,0 +1,22 @@
+"type": GenericCrafter,
+"size": 3,
+name: Usine Obus 150mm
+description: Fabrication d'une obus très puissante .
+"itemCapacity": 2800
+"consumes": {
+"power": 18
+"items": {
+"items": [
+	scrap/750
+    souffre/450
+	copper/1250
+	obus_he_item/150
+]}} 
+"outputItem": obus_150mm/1
+"requirements": [
+lead/2750
+scrap/2125
+silicon/3365
+]
+category: crafting
+research: obus_150mm

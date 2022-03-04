@@ -1,0 +1,11 @@
+type: Wall
+health: 1560
+name: Grand mur béton armée
+description: Grand mur de deffense pour retenir les ennemies ou protéger une zone senssible .
+size: 2
+requirements: [
+  beton/200
+  scrap/200
+]
+category: defense
+research: betonarmewalllarge

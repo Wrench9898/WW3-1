@@ -1,0 +1,11 @@
+type: Conveyor
+health: 50
+speed: 0.12f
+displayedSpeed: 15f
+requirements: [
+copper/15
+lead/25
+silicon/5
+]
+category: distribution
+research: convoiyeur

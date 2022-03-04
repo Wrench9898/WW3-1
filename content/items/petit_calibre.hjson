@@ -1,0 +1,8 @@
+color: DEAE66
+research: {
+  parent: petit_calibre
+  requirements: [
+    coal/50
+    graphite/50
+  ]
+}

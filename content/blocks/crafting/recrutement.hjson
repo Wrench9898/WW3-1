@@ -1,0 +1,18 @@
+"type": GenericCrafter,
+name: Mairie.
+description: Permet d'avoir des citoyens.
+"size": 2,
+"itemCapacity": 250
+"consumes": {
+"items": {
+"items": [
+	nourriture/5
+]}} 
+"outputItem": citoyen/1
+"requirements": [
+lead/1250
+scrap/850
+silicon/1345
+]
+category: crafting
+research: gros_calibre

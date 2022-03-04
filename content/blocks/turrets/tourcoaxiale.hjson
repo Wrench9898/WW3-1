@@ -1,0 +1,40 @@
+{
+	"type": "itemTurret",
+    "name": "Tourelle coaxiale",
+    "description": "Tourelle plus grande portée contre l'infantrie.",
+	"hasItems": true,
+    "hasLiquids": false,
+    "targetAir": true,
+    "targetGround": true,
+    "health": 350,
+	"brightness" : 1
+	"radius" : 175
+    "size": 2,
+    "shootType": "BasicBulletType",
+    "inaccuracy": 4,
+    "reloadTime": 8,
+    "shootCone": 40,
+    "rotateSpeed": 20,
+    "shots": 1,
+    "range": 175,
+    "ammoTypes": {
+        "petit_calibre": {
+		"type": "BasicBulletType"
+		    "lifetime": 14
+            "speed": 17,
+            "damage": 11,
+            "bulletWidth": 25,
+            "bulletHeight": 40,
+            "shootEffect": "shootSmall",
+            "smokeEffect": "shootSmallSmoke",
+            "ammoMultiplier": 4,
+	    "bulletSprite": "balle",
+        }
+    },
+    "requirements": [
+        { "item": "scrap", "amount": 750 },
+		{ "item": "citoyen", "amount": 1 },
+    ],
+    "category": "turret"
+    "shootSound": "coaxiale"
+}

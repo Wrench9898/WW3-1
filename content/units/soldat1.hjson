@@ -1,0 +1,28 @@
+type: mech
+speed: 1
+name: Soldat
+description: Simple soldat pour deffendre ou se battre .
+flying: false
+health: 100
+range: 80
+weapons: [
+  {
+  name: arme1
+  x: 4
+  y: 2
+  reload: 10
+  alternate: true
+  shootSound: fusil
+  itemCapacity: 10
+  ejectEffect: casing1
+  bullet: {
+    lifetime: 30
+    speed: 5
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 4
+    width: 9
+    height: 12
+  }}
+]
+research: ground-factory

@@ -1,0 +1,30 @@
+type: Drill
+health: 1000
+name: Mineur 
+description: Utile pour extraire des minéraux pour avoir des ressources.
+size: 2
+tier: 6
+drillTime: 170
+liquidBoostIntensity: 1.50
+rotateSpeed: 10
+drawRim: true
+solid: true
+hasItems: true
+itemCapacity: 10
+drawMineItem: true
+warmupSpeed : 0.50
+consumes: {
+power: 4
+liquid: {
+liquid: oil	
+amount: 0.3
+optional: true
+booster: true
+}}
+requirements: [
+silicon/350
+scrap/450
+citoyen/4
+] 
+category: production
+research: mineur
